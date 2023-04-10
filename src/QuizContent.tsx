@@ -12,7 +12,7 @@ interface QuizContentProps {
 const parties = [
     'No Party',
     'Federalist',
-    'Democractic-Republican',
+    'Democratic-Republican',
     'Whig',
     'Democratic',
     'Republican'
