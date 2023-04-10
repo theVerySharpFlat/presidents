@@ -1,4 +1,4 @@
-import { Button, CardActions, CardContent, FormControl, FormHelperText, Input, InputLabel, InputProps, MenuItem, OutlinedInput, Select, SelectChangeEvent, Typography } from "@mui/material";
+import { Button, CardActions, CardContent, FormControl, FormHelperText, Input, InputLabel, InputProps, LinearProgress, MenuItem, OutlinedInput, Select, SelectChangeEvent, Typography } from "@mui/material";
 import { useState } from "react";
 import { FormDataMistake } from "./FormData";
 
@@ -192,6 +192,7 @@ export function QuizContent(props: QuizContentProps) {
     return (
         <>
             <CardContent sx={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", flexGrow: 1 }}>
+                <LinearProgress sx={{ marginBottom: "2rem" }} variant="determinate" value={presidentNumber} />
                 <Typography variant="h4" sx={{ textAlign: "center" }}> Who was president #{presidentNumber + 1}? </Typography>
                 <FormControl sx={{ my: 2 }}>
                     <InputLabel htmlFor="name-input">Name (First Last)</InputLabel>
