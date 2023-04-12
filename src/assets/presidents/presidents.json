@@ -412,5 +412,23 @@
         "took_office": "2021",
         "left_office": null,
         "party": "Democratic"
+    },
+    {
+        "number": 47,
+        "president": "Kanye West",
+        "birth_year": 0,
+        "death_year": null,
+        "took_office": "2025",
+        "left_office": "2033",
+        "party": "Independent"
+    },
+    {
+        "number": 48,
+        "president": "Xi Jing Ping",
+        "birth_year": 0,
+        "death_year": null,
+        "took_office": "2033",
+        "left_office": null,
+        "party": "Republican"
     }
 ]
