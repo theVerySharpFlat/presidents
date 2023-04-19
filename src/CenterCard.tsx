@@ -23,7 +23,7 @@ export function CenterCard() {
 
     return (
         <>
-            <Card sx={{ maxWidth: "66vw", minWidth: "66vw", minHeight: "50vh", px: 10, py: 2, display: "flex", flexDirection: 'column' }}>
+            <Card sx={{ maxWidth: {xs: "90vw", md: "66vw"}, minWidth: "66vw", minHeight: "50vh", px: {xs: "2rem", md: "6rem"}, py: "1rem", display: "flex", flexDirection: 'column' }}>
                 {
                     Content(hasBegan, setHasBegan, mistake, setMistake)
                 }
