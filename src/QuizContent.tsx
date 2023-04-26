@@ -191,7 +191,7 @@ export function QuizContent(props: QuizContentProps) {
     return (
         <>
             <CardContent sx={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", flexGrow: 1 }}>
-                <LinearProgress sx={{ marginBottom: "2rem" }} variant="determinate" value={presidentNumber} />
+                <LinearProgress sx={{ marginBottom: "2rem" }} variant="determinate" value={(presidentNumber / presidents.length) * 100} />
                 <Typography variant="h4" sx={{ textAlign: "center" }}> Who was president #{presidentNumber + 1}? </Typography>
                 <FormControl sx={{ my: 2 }}>
                     <InputLabel htmlFor="name-input">Name (First Last)</InputLabel>
